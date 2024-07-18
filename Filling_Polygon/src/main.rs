@@ -31,10 +31,10 @@ fn main() {
         Vec3::new(193.0, 383.0, 0.0),
     ];
 
-    // Fill the polygon 1 with yellow color
+    // Filling the polygon 1 with yellow color
     framebuffer.fill_polygon(&vertices, Color::new(255, 255, 0));
 
-    // Set the current drawing color to white and draw the polygon's edges
+    // Setting the current drawing color to white and draw the polygon's edges
     framebuffer.set_current_color(0xFFFFFF);
     framebuffer.draw_polygon(&vertices);
 
