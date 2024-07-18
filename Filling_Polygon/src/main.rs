@@ -39,5 +39,5 @@ fn main() {
     framebuffer.draw_polygon(&vertices);
 
     // Save the framebuffer as a BMP file
-    framebuffer.render_buffer("out.bmp").expect("Failed to render buffer");
+    framebuffer.render_buffer("poligon1.bmp").expect("Failed to render buffer");
 }
